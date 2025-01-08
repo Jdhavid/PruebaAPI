@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using PruebaAPI.Models;
 
 namespace PruebaAPI.Controllers
 {
