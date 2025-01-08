@@ -37,8 +37,7 @@ namespace PruebaAPI.Controllers
             return person;
         }
 
-        // PUT: api/People/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // PUT: api/People/5        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPerson(int id, Person person)
         {
@@ -68,8 +67,7 @@ namespace PruebaAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/People
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // POST: api/People        
         [HttpPost]
         public async Task<ActionResult<Person>> PostPerson(Person person)
         {
