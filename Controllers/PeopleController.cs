@@ -67,8 +67,7 @@ namespace PruebaAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/People
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // POST: api/People        
         [HttpPost]
         public async Task<ActionResult<Person>> PostPerson(Person person)
         {
