@@ -1,4 +1,4 @@
-namespace PruebaAPI
+namespace PruebaAPI.Models
 {
     public class WeatherForecast
     {
