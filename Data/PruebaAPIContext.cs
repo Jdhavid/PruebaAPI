@@ -19,7 +19,7 @@ namespace PruebaAPI.Data
             // Configuración para la tabla Persons
             modelBuilder.Entity<Person>(entity =>
             {
-                entity.ToTable("Persons"); // Nombre de la tabla en la base de datos
+                entity.ToTable("Person"); // Nombre de la tabla en la base de datos
 
                 entity.HasKey(e => e.Id); // Clave primaria
 
